@@ -37,9 +37,9 @@ export const urlTagMocks: UrlTagMocks = {
     },
     {
       input: `[b][i]Du willst doch mein Passwort![/i][/b]
-    Passwörter werden natürlich nicht gespeichert. Weil der Quellcode offen ist, lässt sich das [url=https&#58;//github.com/spuxx1701/potber-client/blob/develop/app/controllers/login.ts#L30]hier[/url] (Client) und [url=https://github.com/spuxx1701/potber-api/blob/develop/src/auth/auth.service.ts#L19]hier[/url] (API) auch nachprüfen.`,
+    Passwörter werden natürlich nicht gespeichert. Weil der Quellcode offen ist, lässt sich das [url=https&#58;//github.com/spuxx-dev/potber-client/blob/develop/app/controllers/login.ts#L30]hier[/url] (Client) und [url=https://github.com/spuxx-dev/potber-api/blob/develop/src/auth/auth.service.ts#L19]hier[/url] (API) auch nachprüfen.`,
       expected: `[b][i]Du willst doch mein Passwort![/i][/b]
-    Passwörter werden natürlich nicht gespeichert. Weil der Quellcode offen ist, lässt sich das <a href="https&#58;//github.com/spuxx1701/potber-client/blob/develop/app/controllers/login.ts#L30" target="_blank">hier</a> (Client) und <a href="https&#58;//github.com/spuxx1701/potber-api/blob/develop/src/auth/auth.service.ts#L19" target="_blank">hier</a> (API) auch nachprüfen.`,
+    Passwörter werden natürlich nicht gespeichert. Weil der Quellcode offen ist, lässt sich das <a href="https&#58;//github.com/spuxx-dev/potber-client/blob/develop/app/controllers/login.ts#L30" target="_blank">hier</a> (Client) und <a href="https&#58;//github.com/spuxx-dev/potber-api/blob/develop/src/auth/auth.service.ts#L19" target="_blank">hier</a> (API) auch nachprüfen.`,
     },
     {
       input: `[url=https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_100219588/afd-parteitag-26-jaehrige-kaiser-will-21-jahre-berufserfahrung-haben.html]Erstaunen auf dem Parteitag

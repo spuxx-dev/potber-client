@@ -235,7 +235,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Changed
 
-- The application now uses [potber-auth](https://github.com/spuxx1701/potber-auth) for authentication.
+- The application now uses [potber-auth](https://github.com/spuxx-dev/potber-auth) for authentication.
 
 ### Fixed
 
@@ -247,7 +247,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Chores
 
 - Added support for `nvm`.
-- Started the migration from `ember-data` to a custom solution for data fetching and handling. The reasoning behind this change can be read [here](https://github.com/spuxx1701/potber-client/issues/213).
+- Started the migration from `ember-data` to a custom solution for data fetching and handling. The reasoning behind this change can be read [here](https://github.com/spuxx-dev/potber-client/issues/213).
 
 ## [1.16.0] - 2023-11-13
 

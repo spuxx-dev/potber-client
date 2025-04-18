@@ -2,13 +2,13 @@
 <img src="./.logo/440x196_round.png" alt="potber logo" height="200" />
 </p>
 <p align="center">
-A mobile-first web client for the german internet forum <a href="https://forum.mods.de" target="_blank">forum.mods.de</a> built with <a href="https://emberjs.com/" target="_blank">ember.js</a>. If you're looking for potber-api, you can find it <a href="https://github.com/spuxx1701/potber-api" target="_blank">here</a>.
+A mobile-first web client for the german internet forum <a href="https://forum.mods.de" target="_blank">forum.mods.de</a> built with <a href="https://emberjs.com/" target="_blank">ember.js</a>. If you're looking for potber-api, you can find it <a href="https://github.com/spuxx-dev/potber-api" target="_blank">here</a>.
 </p>
 
-![Production Builds](https://github.com/spuxx1701/potber-client/actions/workflows/production.yml/badge.svg)
-![Staging Builds](https://github.com/spuxx1701/potber-client/actions/workflows/staging.yml/badge.svg)
-![Latest Release](https://img.shields.io/github/v/release/spuxx1701/potber-client)
-![License](https://img.shields.io/github/license/spuxx1701/potber-client)
+![Production Builds](https://github.com/spuxx-dev/potber-client/actions/workflows/production.yml/badge.svg)
+![Staging Builds](https://github.com/spuxx-dev/potber-client/actions/workflows/staging.yml/badge.svg)
+![Latest Release](https://img.shields.io/github/v/release/spuxx-dev/potber-client)
+![License](https://img.shields.io/github/license/spuxx-dev/potber-client)
 
 ## Table of contents
 
@@ -96,11 +96,11 @@ You will need the following things properly installed on your computer.
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/) (with npm)
 - [Ember CLI](https://cli.emberjs.com/release/)
-- [potber-api](ttps://github.com/spuxx1701/potber-api) - Without this web server, potber-client does not function.
+- [potber-api](ttps://github.com/spuxx-dev/potber-api) - Without this web server, potber-client does not function.
 
 ### Installation
 
-- `git clone https://github.com/spuxx1701/potber-client.git`
+- `git clone https://github.com/spuxx-dev/potber-client.git`
 - `cd potber-client`
 - `npm install`
 
@@ -110,11 +110,11 @@ You can either run the application via a [Dev Container](https://code.visualstud
 
 #### Dev Container
 
-You need to have Docker installed on your system and have the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) setup in VSCode. Clone [potber-api](https://github.com/spuxx1701/potber-api) and open it in VSCode. Click on `Reopen in container`. After finishing the setup, you can start the development server with `npm start` inside of the VSCode terminal. Visit the app at [http://localhost:4200](http://localhost:4200).
+You need to have Docker installed on your system and have the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) setup in VSCode. Clone [potber-api](https://github.com/spuxx-dev/potber-api) and open it in VSCode. Click on `Reopen in container`. After finishing the setup, you can start the development server with `npm start` inside of the VSCode terminal. Visit the app at [http://localhost:4200](http://localhost:4200).
 
 #### Without Dev Container
 
-- Clone [potber-api](https://github.com/spuxx1701/potber-api) and start up a local instance.
+- Clone [potber-api](https://github.com/spuxx-dev/potber-api) and start up a local instance.
 - Start up the development server with `npm start` (assuming you also have cloned `potber-api` and `potber-auth`). You can also run the client using the remote staging instances of `potber-api` and `potber-auth` via `npm run start:remote`.
 - Visit the app at [http://localhost:4200](http://localhost:4200).
 
@@ -141,12 +141,12 @@ The application can be deployed via [Docker](https://docker.com). The applicatio
 - [staging](Dockerfile.staging)
 - [production](Dockerfile.production)
 
-After building the Docker image, you can run it locally or on a remote host. In case you're curious about how `potber.de` is hosted: Both the [test](https://test.potber.de) and [production](https://potber.de) environments run on a [Flux](https://fluxcd.io)-controlled [MicroK8s](https://microk8s.io) cluster. The infrastructure is documented [here](https://github.com/spuxx1701/flux/tree/main/clusters/constellation/apps/potber).
+After building the Docker image, you can run it locally or on a remote host. In case you're curious about how `potber.de` is hosted: Both the [test](https://test.potber.de) and [production](https://potber.de) environments run on a [Flux](https://fluxcd.io)-controlled [MicroK8s](https://microk8s.io) cluster. The infrastructure is documented [here](https://github.com/spuxx-dev/flux/tree/main/clusters/constellation/apps/potber).
 
 ## Further Reading / Useful Links
 
 - [ember.js](https://emberjs.com/) - The framework.
-- [potber-api](https://github.com/spuxx1701/potber-api) - The web server that potber-client utilizes.
+- [potber-api](https://github.com/spuxx-dev/potber-api) - The web server that potber-client utilizes.
 - [dockerhub](https://hub.docker.com/repository/docker/spuxx/potber-client/general) - The dockerhub repository.
 
 ## Credit
