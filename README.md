@@ -85,7 +85,7 @@ element {
 4. You can now change any of the default theme's variables.
 5. Send me a copy of the entire section and tell me how the theme should be called. 🙂
 
-If you feel skilled enough, you can also create a PR of course. Themes are located [here](app/styles/themes/). All themes will be merged with the default theme, so you only need to provide variables you want to override.
+If you feel skilled enough, you can also create a PR of course. Themes are located [here](app/assets/styles/themes/). All themes will be merged with the default theme, so you only need to provide variables you want to override.
 
 ## How to develop or build the app
 
