@@ -93,8 +93,9 @@
 
 #sidebar-gestures-container-outer {
   position: fixed;
-  width: 1.5rem;
-  height: inherit;
+  width: 3rem;
+  height: var(--sidebar-height);
+  top: var(--top-nav-height);
   left: calc(var(--sidebar-width) + var(--sidebar-left));
   right: calc(var(--sidebar-width) + var(--sidebar-right));
 }
